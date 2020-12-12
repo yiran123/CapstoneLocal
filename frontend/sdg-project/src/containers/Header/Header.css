@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+.page-header {
+  /* width: 1280px;
+  margin: 0 auto; */
+}
+
+.page-header-inner{
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 20px 13px 30px;
+  box-sizing: border-box;
+}
+
+.page-header-logo {
+  width: 249.5px;
+  height: 46.5px;
+}
+
+.lang-change {
+display: flex;
+align-items: center;
+
+}
+.lang-change-item-active {
+  color: #1589EE;
+}
+.lang-change-img{
+  padding: 0 12px;
+}

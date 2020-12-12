@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+.Filter {
+  background-color: #EFF1F1;
+  padding: 33px 136px 57px;
+  font-size: 16px;
+}
+
+
+.un-sdgs-filter{
+  padding-top: 20px;
+}
+.un-sdgs-filter-top{
+  width: 559px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-name{
+  font-size: 16px;
+}
+.un-sdgs-filter-bottom{
+  display: flex;
+}
+.un-sdgs-filter-item{
+  cursor: pointer;
+  margin-right: 9px;
+  width: 52px;
+height: 52px;
+}
+
+.other-filter{
+margin-top: 32px;
+display: flex;
+}
+
+.other-filter-item{
+  
+}
+
+.other-filter-item-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+width: 272px;
+}
+
+.other-filter-item-bottom{
+  display: flex;
+  align-items: center;
+}
+.funding-filter-item{
+  height: 32px;
+  line-height: 32px;
+  color: #1C354A;
+  width: 32px;
+  font-size: 12px;
+  border: 1px solid #1589EE;
+  background-color: #ECEFF5;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 8px;
+  box-sizing: border-box;
+}
+
+.funding-filter-item.active{
+ 
+  background-color: #1C354A;
+  color: #fff;
+}
+
+.bond-types-filter-item{
+  height: 32px;
+  line-height: 32px;
+  color: #1589EE;
+  width: 96px;
+  font-size: 12px;
+  border: 1px solid #1589EE;
+  background-color: #ECEFF5;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 8px;
+  box-sizing: border-box;
+}
+
+.bond-types-filter-item.active{
+  background-color: #1C354A;
+  color: #fff;
+}
+
+.issue-years-filter-item.active{
+  background-color: #1C354A;
+  color: #fff;
+}
+
+
+.issue-years-filter-item{
+  height: 32px;
+  line-height: 32px;
+  color: #1589EE;
+  width: 64px;
+  font-size: 12px;
+  border: 1px solid #1589EE;
+  background-color: #ECEFF5;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 8px;
+  box-sizing: border-box;
+}
+
+.MuiButton-label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 18px;
+  /* or 164% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.buttonWrapper2 {
+  margin-left: 561px;
+  margin-top: 9px;
+  width: 214px;
+  height: 32px;
+  background: #ECEFF5;
+  border: 0.75px solid #1C9A4E;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+}
+
+.buttonWrapper2 p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  width: 214px;
+  /* or 150% */
+  
+  align-items: center;
+  text-align: center;
+
+  color: #1C354A;
+}
+
+.buttonLine {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#select-outlined-label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  
+  color: #1C354A;
+}
+
+.buttonWrapper .MuiInputBase-root{
+  width: 232px;
+  height: 32px;
+  background: #ECEFF5;
+  border: 0.75px solid #1589EE;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 16px rgba(12, 43, 66, 0.1);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+
+  color: #1C354A;
+}
+
+.buttonWrapper select{
+  /* width: 100%; */
+  color: #1C354A;
+}
+
+.buttonWrapper .MuiSelect-select:not([multiple]) option, .MuiSelect-select:not([multiple]) optgroup{
+  color: #000
+}
+
+.buttonWrapper .MuiSelect-icon{
+  color: #1C354A;
+}
+
+.buttonWrapper .MuiInput-underline:hover:not(.Mui-disabled):before,
+.buttonWrapper .MuiInput-underline:before {
+  border: none;
+}
+.buttonWrapper .MuiSelect-select.MuiSelect-select{
+  /*padding-left: 20px;*/
+  color: #1C354A;
+  width: 232px;
+}
+

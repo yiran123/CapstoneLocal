@@ -1,0 +1,22 @@
+.sdg-filter-item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 16px;
+    /* identical to box height, or 94% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+
+    /* 09 - Text / Default */
+    color: #080707;
+    background: #E6E7E8;
+    
+    }
+
+.sdg-filter-item.active{
+ 
+    background: #B1959E;
+  }

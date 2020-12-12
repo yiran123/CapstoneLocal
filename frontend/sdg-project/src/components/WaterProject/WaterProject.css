@@ -1,0 +1,380 @@
+
+  .flex-r{
+    display: flex;
+  }
+  
+  .waterInfoContent{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top:10px;
+    background-color: #fff;
+    padding: 100px 94px 274px 94px;
+    justify-content: space-between;
+  }
+  .waterInfoContent-txt1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    align-items: center;
+    color: #0F1F19;
+  }
+  .waterInfoContent-txt12{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    align-items: center;
+    color: #0F1F19;
+    margin: 0 0 10px 23px;
+  }
+  .waterInfoContent-left-tab1{
+    margin: 29px 0px 72px;
+    width: 700px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px 4px rgba(12, 43, 66, 0.15);
+  }
+  
+  .waterInfoContent-txt2{
+    height: 55px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 55px;  
+    color: #0C2B42;
+    flex: 1 1 auto;
+  }
+  .waterInfoContent-left-tr1{
+    padding:0px 88px 0px 10px;
+  }
+  .waterInfoContent-left-tr2{
+    padding:0px 60px 0px 0px;
+  }
+  .waterInfoContent-left-td1{
+    padding:0px 0px 0px 10px;
+  }
+  .waterInfoContent-txt3{
+    height: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 56px;
+    align-items: center;
+    color: #51687B;
+    flex: 1 1 auto;
+  }
+  .tr1{
+    background-color:  #F9F8F8;
+    border-bottom: 0.5px solid #8E8E8E;
+  }
+  .tr2{
+    background-color:  #FfFfFf;
+  }
+  .tr3{
+    background-color:  #F9F8F8;
+  }
+  .flex11{
+    flex: 1 1 auto;
+  }
+  .waterInfoContent-tab2{
+    margin: 35px 0px 72px;
+    width: 699px;
+    height: 246px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px 4px rgba(12, 43, 66, 0.15);
+  }
+  .waterInfoContent-tab2-tr{
+    width: 178px;
+    padding: 0 22px;
+  }
+  .waterInfoContent-txt7{
+    height: 70px; 
+    width: 699px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 70px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  .waterInfoContent-txt6{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    align-items: center;
+    text-align: center;
+    color: #1C9A4E;
+  }
+  .waterInfoContent-txt4{
+    margin-top: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+  
+    color: #0F1F19;
+  }
+  .waterInfoContent-txt5{
+    margin-top: 14px;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  
+  color: #0F1F19;
+  }
+
+  .waterInfoContent-txt52{
+    margin-top: 33px;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  
+  color: #0F1F19;
+  }
+  
+  .waterInfoContent-tab3{
+    margin: 0px 0px 74px 36px;
+    width: 629px;
+    height: 355px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px 4px rgba(12, 43, 66, 0.15);
+  }
+  
+  .waterInfoContent-tab4{
+    margin: 0px 0px 74px 66px;
+    width: 584px;
+    height: 424px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px 4px rgba(12, 43, 66, 0.15);
+  }
+  
+  .waterInfoContent-tab5{
+    margin: 0px 0px 274px;
+    width: 700px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px 4px rgba(12, 43, 66, 0.15);
+  }
+  
+  .waterInfoContent-tab3-bar{
+    width: 545px;
+    height: 254px;
+    margin: 0px 45px 22px 39px;
+    /* background-color: red; */
+  }
+  
+  .waterInfoContent-tab3-line{
+    width: 504px;
+    height: 280px;
+    margin: 0px 40px 27px 40px;
+    /* background-color: red; */
+  }
+  
+  .waterInfoContent-tab3-txt1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    align-items: center;
+    color: #0F1F19;
+    padding: 25px  0px 0px 44px;
+  }
+  .line30{
+    line-height: 30px;
+  }
+  .line20{
+    line-height: 20px;
+  }
+  .waterInfoContent-tab3-txt2{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+   
+    text-align: center;
+    color: #08253D;
+  }
+  .waterInfoContent-tab3-bg1{
+    width: 136px;
+    height: 30px;
+    /* background: #1C9A4E; */
+    background-color: rgba(28,154,78,0.1);
+    border-radius: 4px;
+    margin:19px 0px 0px 60px;
+  }
+  .waterInfoContent-tab3-bg2{
+    width: 135px;
+    height: 30px;
+    /* background: #007DC3; */
+    background-color: rgba(0,125,195,0.1);
+    border-radius: 4px;
+    margin:19px 0px 0px 15px;
+  }
+  .flex-rz{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .waterInfoContent-tab3-bg3{
+    width: 14px;
+    height: 10px;
+    background: #7A961F;
+    margin: 5px 8px 0px 0px;
+  }
+  .waterInfoContent-tab3-bg4{
+    width: 14px;
+    height: 10px;
+    background: #EA7926;
+    margin: 5px 8px 0px 0px;
+  
+  }
+  
+  .waterInfoContent-tab3-demo{
+    margin: 5px 44px 0px 0px;
+  }
+  
+  .waterInfoContent-tab4-txt1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    align-items: center;
+    color: #0F1F19;
+    padding: 37px 0px 0px 45px;
+  }
+  
+  .waterInfoContent-tab4-txt2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #0F1F19;
+    padding: 21px 0px 15px 45px;
+  }
+  
+  .waterInfoContent-tab4-txt3{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 20px;
+    align-items: center;
+    color: #08253D;
+    padding-right: 8px;
+  }
+  .flex-spb{
+    justify-content: space-between;
+  }
+  .waterInfoContent-tab4-bg1{
+    width: 14px;
+    height: 10px;
+    background: #007DC3;
+    margin: 5px 8px 0px 0px;
+  }
+  .waterInfoContent-tab4-bg2{
+    width: 14px;
+    height: 10px;
+    background: #1C9A4E;
+    margin: 5px 8px 0px 0px;
+  }
+  .waterInfoContent-tab4-bg3{
+    width: 14px;
+    height: 10px;
+    background: #C0CEDB;
+    margin: 5px 8px 0px 0px;
+  }
+  .waterInfoContent-tab4-demo{
+    padding: 20px 45px 0px 0px;
+  }
+  
+  .waterInfoContent-tab5-txt1{
+    height: 45px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 45px;
+    text-align: center;
+    color: #0C2B42;
+  }
+  .waterInfoContent-tab5-txt4{
+    height: 45px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.5px;
+    text-align: center;
+    color: #0C2B42;
+  }
+  .waterInfoContent-tab5-txt2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22.5px;
+    height: 45px;
+    text-align: center;
+    color: #0C2B42;
+    text-align: center;
+  }
+  .waterInfoContent-tab5-txt3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 60px;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    color: #51687B;
+  }
+
+  .waterInfoContent-tab5-border{
+    background: #F9F8F8;
+    border-bottom: 0.5px solid #8E8E8E;
+  }
+  .waterInfoContent-tab5-td1{
+    padding:0px 0px 0px 10px
+  }
+  
+
+  .tabDescImg{
+    width: 56px;
+    height: 61px;
+  }
+
+  .whiteRight{
+    width: 12.5px;
+    height: 23.5px;
+    margin-top: 5px;
+  }
+
+  .filterBondBody {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 100px;
+    justify-content: flex-start;
+  }

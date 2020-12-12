@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+.Swiper {
+  position: relative;
+  background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Swiper-item {
+  height: 296px;
+  padding: 22px 32px;
+  box-sizing: border-box;
+  position: relative;
+}
+.page-one-bg{
+position: absolute;
+bottom: 0;
+right: 58px
+}
+.page-one-content{
+  max-width: 758px;
+  margin-top: 57px;
+  margin-left: 116px;
+}
+.page-one-title{
+  font-size: 32px;
+line-height: 56px;
+color: #0F1F19;
+}
+.page-one-desc{
+  font-size: 16px;
+}
+.page-two{
+  background-color: #E0F0E3;
+}
+
+.page-two-bg{
+  position: absolute;
+  bottom: 116px;
+  right: 108px
+  }
+  .page-two-content{
+    max-width: 758px;
+    margin-top: 57px;
+    margin-left: 116px;
+  }
+  .page-two-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 56px;
+    color: #0F1F19;
+  }
+  .page-two-desc{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  .swipe-btns{
+    position: absolute;
+    bottom: 44px;
+    left: 150px;
+  }
+
+  .point {
+    cursor: pointer;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #C4C4C4;
+    margin-left: 8px;
+  }
+
+  .point.active {
+    background-color: #383838;
+  }
+  .point:first-of-type {
+    margin-left: 0;
+  }

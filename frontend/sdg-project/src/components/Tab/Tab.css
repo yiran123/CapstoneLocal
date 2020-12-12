@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+.Tab{
+  padding: 22px 62px 0 32px;
+  background: #FFFDFD;
+box-shadow: 0px 4px 8px #A4B4C1;
+}
+
+.tabDesc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #3E5060;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  display: flex;
+  margin-left: 82px;
+  justify-content: space-between;
+}
+
+.tabDescContent {
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+
+  align-items: center;
+  letter-spacing: 1px;
+
+  color: #3E5060;
+}
+
+.tabDescContent-help{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 1px;
+
+  color: #51687B;
+}
+
+.tabDescContent-desc{
+  margin-top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 0;
+  align-items: center;
+
+  color: #0F1F19;
+}
+
+.tabDescImg{
+  margin-right: 9px;
+}
+
+.tabWrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.tabItem{
+  width: 488px;
+  height: 36px;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #6A7D1D;
+text-align: center;
+cursor: pointer;
+}
+
+.tabItem.active{
+color: #0F1F19;
+border-bottom: 4px solid #0F1F19;
+
+}
+
+
+

@@ -1,0 +1,19 @@
+{
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  // "editor.formatOnSave": true,
+  "cssrem.rootFontSize": 75,
+  "workbench.startupEditor": "newUntitledFile",
+  // "workbench.startupEditor": "welcomePage",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[bat]": {},
+  "editor.formatOnSave": true,
+}

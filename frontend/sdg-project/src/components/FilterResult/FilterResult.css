@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+.FilterResultWrapper{
+  width: 1008px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  margin: 54px auto;
+  /* padding: 100px; */
+  /* box-sizing: border-box; */
+  
+}
+
+.FilterResultWrapperTop{
+ padding: 50px 36px 32px;
+}
+
+.FilterResultWrapperBottom{
+padding: 21px 31px 28px;
+background: #F5F5F5;
+
+}
+.FilterResultHeader{
+  margin-bottom: 50px;
+
+
+}
+
+.FilterResultHeaderTop{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 31px;
+  margin-left: 18px;
+}
+
+.FilterResultHeaderTitle{
+  display: flex;
+  align-items: center;
+  color: #0F0F0F;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.FilterResultHeaderSelect{
+
+}
+
+
+
+.FilterResultBody{
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 100px;
+  justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
