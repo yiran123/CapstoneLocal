@@ -87,7 +87,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-
+justify-content: center;
 color: #FFFFFF;
 margin-left: 40px;
 `
