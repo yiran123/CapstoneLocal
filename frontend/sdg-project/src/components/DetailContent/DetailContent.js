@@ -362,7 +362,7 @@ class DetailContent extends React.Component {
               <div className="flex">
                 <div className="wrapper-char-right-button background2">
                   <span className="wrapper-char-right-txt5">{status[1]}</span>
-                  <span className={`triangle-${diff[0] < 0 ? 'down' : 'up'}`}></span>
+                  <span className={`triangle-${diff[1] < 0 ? 'down' : 'up'}`}></span>
                   <span className="wrapper-char-right-txt6">{status[1]-preStatus[1]}</span>
                 </div>
                 <div className="wrapper-char-right-txt4">Under Construction</div>
@@ -370,7 +370,7 @@ class DetailContent extends React.Component {
               <div className="flex">
                 <div className="wrapper-char-right-button background3">
                   <span className="wrapper-char-right-txt5">{status[2]}</span>
-                  <span className={`triangle-${diff[0] < 0 ? 'down' : 'up'}`}></span>
+                  <span className={`triangle-${diff[2] < 0 ? 'down' : 'up'}`}></span>
                   <span className="wrapper-char-right-txt6">{status[2]-preStatus[2]}</span>
                 </div>
                 <div className="wrapper-char-right-txt4">Upgraded</div>
@@ -378,7 +378,7 @@ class DetailContent extends React.Component {
               <div className="flex">
                 <div className="wrapper-char-right-button background4">
                   <span className="wrapper-char-right-txt5">{status[3]}</span>
-                  <span className={`triangle-${diff[0] < 0 ? 'down' : 'up'}`}></span>
+                  <span className={`triangle-${diff[3] < 0 ? 'down' : 'up'}`}></span>
                   <span className="wrapper-char-right-txt6">{status[3]-preStatus[3]}</span>
                 </div>
                 <div className="wrapper-char-right-txt4">Built</div>
