@@ -101,7 +101,16 @@
 
 .series-UN-SDGs{
   margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+
+/* .series-UN-SDGs img:not(:first-child) {
+  margin-left:20px;
+} */
 
 
 .series-UN-SDGs-title{

@@ -52,11 +52,6 @@ svg.append("g")
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x));
 
-// svg.append("g")
-//     .attr("class", "axis axis--y")
-//     .call(d3.axisLeft(y).ticks(5))
-//     ;
-        
 // Create rectangles
 let bars = svg.selectAll('.bar')
     .data(data)
@@ -71,9 +66,10 @@ bars.append('rect')
     .attr("width", x.bandwidth())
     .attr("height", d => { return height - y(d.value); });
     
+    
 bars.append("text")
     .text(d => { 
-        return d.value;
+        return '$'+d.value;
     })
     .attr("x", d => {
         return x(d.name) + x.bandwidth()/2;
@@ -81,7 +77,7 @@ bars.append("text")
     .attr("y", d => {
         return y(d.value) - 5;
     })
-    .attr("font-family" , "sans-serif")
+    .attr("font-family" , "Roboto")
     .attr("font-size" , "14px")
     .attr("fill" , "black")
     .attr("text-anchor", "middle");

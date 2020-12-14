@@ -103,7 +103,7 @@ render() {
           </div>
       </div>
 
-      <div className="series-UN-SDGs">
+      <div style={{marginTop: 20 }}>
         <div className="series-UN-SDGs-title">TOP UN SDGs</div>
         <div className="series-UN-SDGs">
           {
@@ -112,7 +112,7 @@ render() {
                 sdg = "0"+sdg
               }
 
-              return <img src={require(`../../static/icons/sdgs/E-WEB-Goal-${sdg}.png`)} width="52" height="54" alt={sdg} style={{ marginRight: '18px' }} />
+              return <img src={require(`../../static/icons/sdgs/E-WEB-Goal-${sdg}.png`)} width="52" height="54" alt={sdg} />
 
             })
           }
