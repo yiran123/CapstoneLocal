@@ -20,9 +20,8 @@
 }
 
 .lang-change {
-display: flex;
-align-items: center;
-
+  display: flex;
+  align-items: center;
 }
 .lang-change-item-active {
   color: #1589EE;
